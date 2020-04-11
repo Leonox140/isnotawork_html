@@ -3,25 +3,36 @@
 <head>
    <meta charset="UTF-8">
     <title>Não é meu contato</title>
+    <link rel="stylesheet"  type="text/css"  href="css/style.css">
+    <h1>Não fale comigo:</h1>
    
 </head>
-<body
-     bgcolor="#CEECF5"
+<body>
    <header>
+      <form>
+ <div id="botao">
       <button><a href="index.html">Não é a home</a></button>
       <button><a href="sobre.html">Não é sobre mim</a></button>
       <button><a href="contato.html">Não é meu contato</a></button>
-  </header>
-  
-   <h1>Não fale comigo:</h1>
- 
+  </div>
+      </form>
+
+   
+   <div id="div2">
+
     Não coloque seu nome:<input type="text" id="txtnome"  size="35" maxlength="100" placeholder="Não digite seu nome" required>
     <br>
     Não coloque seu e-mail:<input type="email" id="txtemail" size="34,9" maxlength="100" placeholder="Não digite seu email" required>
     <br>
-    Não me mande messagem:<textarea> </textarea>
+    Não me mande messagem:<textarea name="textarea"rows="5" cols="30"></textarea>
+       
     <br>
-   <button type="button" id="btnenviar" class="btn btn-info"  required>Enviar</button>
+    
+    </div>
+    
+    <center>
+       <button type="button" id="btnenviar" class="btn btn-info"  required>Enviar</button>
+    </center>
     <center> <img src="img/baddoge.jpg" alt="bad doge" title="bad doge"/>
     </center>
 

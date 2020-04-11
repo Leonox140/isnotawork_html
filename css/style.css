@@ -1,0 +1,67 @@
+/* CSS Documento */
+
+/* comentário */
+body{
+    font-size:15px; color:#000; font-family:verdana, arial, san-serif;
+margin-top: 5%;
+margin-left: 5%;
+margin-bottom: 5%;
+margin-right: 5%;
+background-color:#CEECF5}
+
+
+H1 {text-align: center;}
+br {text-align: center;}
+
+form{background-color:#F0F8FF}
+
+#botao{text-align: center}
+.botaoEnviar{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+    }
+
+#img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#F0F8FF;}
+
+#div1{display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    background-color:#F0F8FF;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;}
+    
+#div2{display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    background-color:#F0F8FF;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;}
+
+#btnenviar{display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    background-color:#F0F8FF;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;}
+
+textarea {
+  resize: inherit;
+}
+
